@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bubbles.h" />
+    <ClInclude Include="inss.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="sels.h" />
   </ItemGroup>

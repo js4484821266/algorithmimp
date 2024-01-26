@@ -5,7 +5,7 @@
 
 int main(void)
 {
-	std::vector<int> v{9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+	std::vector<int> v{1, 3, 5, 7, 9, 0, 8, 6, 4, 2};
 	sels(v);
 	return 0;
 }

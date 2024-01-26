@@ -1,7 +1,6 @@
 #include<iostream>
 #include<vector>
-template <class T>
-extern void bubblesort(std::vector<T> v);
+#include "bubbles.h"
 
 int main(void)
 {

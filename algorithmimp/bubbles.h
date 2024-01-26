@@ -1,21 +1,6 @@
-#include <iostream>
+#pragma once
 #include<vector>
-
-template <class T>
-void swap(T& a, T& b) noexcept
-{
-	T c = a;
-	a = b;
-	b = c;
-}
-
-template <class T>
-void vprint(const std::vector<T>& v)
-{
-	for (T e : v)
-		std::cout << e << " ";
-	std::cout << std::endl;
-}
+#include "main.h"
 
 template <class T>
 void bubblesort(std::vector<T>& v)

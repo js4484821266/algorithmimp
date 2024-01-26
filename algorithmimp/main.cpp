@@ -1,10 +1,11 @@
 #include<iostream>
 #include<vector>
 #include "bubbles.h"
+#include "sels.h"
 
 int main(void)
 {
-	std::vector<int> v{5, 8, 8, 6, 8, 9, 9, 6, 7, 8};
-	bubblesort(v);
+	std::vector<int> v{9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+	sels(v);
 	return 0;
 }
